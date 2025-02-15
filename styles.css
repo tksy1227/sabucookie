@@ -1,0 +1,52 @@
+  /* hi */
+  body {
+    font-family: "DynaPuff", serif;
+    text-align: center;
+    background-color: #f9e3e3;
+    color: #a83f3f;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Make the body take up the full viewport height */
+    display: flex; /* Enable Flexbox */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+  }
+  
+  h1 {
+    font-family: "DynaPuff", serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .letter {
+    font-family: "Passions Conflict", serif;
+    font-size: 40px;
+    display: inline-block;
+    background-color: #fff;
+    border: 2px solid #a83f3f;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    font-family: "DynaPuff", serif;
+    margin-top: 10px;
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    background-color: #a83f3f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  button:hover {
+    background-color: #8a2e2e;
+  }

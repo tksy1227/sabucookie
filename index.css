@@ -1,0 +1,51 @@
+body {
+    font-family: "DynaPuff", serif;
+    text-align: center;
+    background-color: #f9e3e3;
+    color: #a83f3f;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Full viewport height */
+    display: flex; /* Enable Flexbox */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+  }
+  
+  h1 {
+    font-family: "DynaPuff", serif;
+    font-size: 2.5rem;
+    margin: 0 0 10px 0; /* Reduced bottom margin */
+  }
+  
+  p {
+    font-family: "DynaPuff", serif;
+    font-size: 1.2rem;
+    margin: 0 0 20px 0; /* Reduced bottom margin */
+  }
+  
+  .fortune-cookie {
+    margin: 0 0 10px 0; /* Reduced bottom margin */
+  }
+  
+  .cookie {
+    width: 150px; /* Adjust the size as needed */
+    height: auto; /* Maintain aspect ratio */
+    cursor: pointer;
+  }
+  
+  button {
+    font-family: "DynaPuff", serif;
+    margin: 10px 0 0 0; /* Reduced top margin */
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    background-color: #a83f3f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #8a2e2e;
+  }
